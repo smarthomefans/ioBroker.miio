@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.DeviceClass = void 0;
 const Humidifier = require("../Type/humidifier");
 const tools_1 = require("../../tools");
 const command_1 = require("../../Commands/command");

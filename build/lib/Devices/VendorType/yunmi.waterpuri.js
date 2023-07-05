@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.DeviceClass = void 0;
 const WaterPuri = require("../Type/waterpuri");
 const tools_1 = require("../../tools");
 const property_1 = require("../../Properties/property");

@@ -3,10 +3,11 @@
  * Created with @iobroker/create-adapter v1.14.0
  */
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
         function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
         function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : new P(function (resolve) { resolve(result.value); }).then(fulfilled, rejected); }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
@@ -17,7 +18,7 @@ const utils = require("@iobroker/adapter-core");
 const miio = require("./lib/miio");
 class Miio extends utils.Adapter {
     constructor(options = {}) {
-        super(Object.assign({}, options, { name: "miio" }));
+        super(Object.assign(Object.assign({}, options), { name: "miio" }));
         /**
          * Save latest miio adapter objects.
          */
@@ -431,14 +432,8 @@ class Miio extends utils.Adapter {
                             this.log.warn(`Unsupported device event operation "${opt}".`);
                         }
                     });
-                    this.miioController.on("data", 
-                    /**
-                     * @param {string} id
-                     * @param {string} state
-                     * @param {any} val
-                     */
-                    (id, state, val) => {
-                        this.miioAdapterUpdateState(this.generateSelfChannelID(id), state, val);
+                    this.miioController.on("data", (id, state, val) => {
+                        this.miioAdapterUpdateState(this.generateSelfChannelID(id), state, val !== null && val !== void 0 ? val : null);
                     });
                     yield this.miioController.listen();
                     this.setConnected(true);

@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.DeviceClass = void 0;
 const device_1 = require("../device");
 const command_1 = require("../../Commands/command");
 const property_1 = require("../../Properties/property");

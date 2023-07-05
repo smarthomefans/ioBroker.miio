@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.objectExtend = exports.HextoRGB = exports.RGBToHex = exports.isArray = exports.isObject = void 0;
 /**
  * Tests whether the given variable is a real object and not an Array
  * @param it The variable to test

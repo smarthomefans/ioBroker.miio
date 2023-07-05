@@ -455,13 +455,8 @@ class Miio extends utils.Adapter {
                     }
                 });
                 this.miioController.on("data",
-                    /**
-                     * @param {string} id
-                     * @param {string} state
-                     * @param {any} val
-                     */
-                    (id, state, val) => {
-                        this.miioAdapterUpdateState(this.generateSelfChannelID(id), state, val);
+                    (id: string, state: string, val: unknown) => {
+                        this.miioAdapterUpdateState(this.generateSelfChannelID(id), state, val ?? null);
                     }
                 );
                 await this.miioController.listen();
