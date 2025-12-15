@@ -199,7 +199,6 @@
         ],
         "license": "MIT",
         "platform": "Javascript/Node.js",
-        "main": "build/main.js",
         "icon": "miio.png",
         "enabled": true,
         "extIcon": "https://raw.githubusercontent.com/smarthomefans/ioBroker.miio/master/admin/miio.png",
