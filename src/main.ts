@@ -8,7 +8,7 @@ import * as utils from "@iobroker/adapter-core";
 import * as miio from "./lib/miio";
 
 // Load your modules here, e.g.:
-// import * as fs from "fs";
+// import * as fs from "node:fs";
 
 // Augment the adapter.config object with the actual types
 // TODO: delete this in the next version

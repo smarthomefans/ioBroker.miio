@@ -1,4 +1,4 @@
-import { EventEmitter } from "events";
+import { EventEmitter } from "node:events";
 import * as miio from "miio-lite";
 
 type ControllerDeviceMiioDevice = any;

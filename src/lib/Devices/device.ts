@@ -1,4 +1,4 @@
-import { EventEmitter } from "events";
+import { EventEmitter } from "node:events";
 import { objectExtend } from "../tools";
 import { MiioCommand } from "../Commands/command";
 import { MiioProperty } from "../Properties/property";
