@@ -50,6 +50,9 @@ This adapter controls devices which followed miIO protocol.
 
 
 ## Changelog
+### **WORK IN PROGRESS**
+- (copilot) Adapter requires node.js >= 22 now
+
 ### 0.0.13 (2019-09-19)
 * Fix device can not control after adapter restart
 
