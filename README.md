@@ -89,6 +89,8 @@ This adapter controls devices which followed miIO protocol.
 ### 0.0.1
 * (SchumyHao) initial release
 
+[Older changelogs can be found there](CHANGELOG_OLD.md)
+
 ## License
 MIT License
 
