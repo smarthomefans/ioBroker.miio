@@ -1,250 +1,250 @@
 {
-    "common": {
-        "name": "miio",
-        "version": "0.0.13",
-        "news": {
-            "0.0.13": {
-                "en": "Fix device can not control after adapter restart",
-                "de": "Fix Gerät kann nach Adapter-Neustart nicht kontrollieren",
-                "ru": "Исправить устройство не может контролировать после перезагрузки адаптера",
-                "pt": "O dispositivo de correção não pode controlar após a reinicialização do adaptador",
-                "nl": "Fix-apparaat kan niet controleren nadat de adapter opnieuw is opgestart",
-                "fr": "Le périphérique fixe ne peut pas contrôler après le redémarrage de l'adaptateur",
-                "it": "Il dispositivo di correzione non può controllare dopo il riavvio dell'adattatore",
-                "es": "El dispositivo fijo no puede controlar después de reiniciar el adaptador",
-                "pl": "Napraw urządzenie nie może kontrolować po ponownym uruchomieniu adaptera",
-                "zh-cn": "修复适配器重启后，设备无法控制"
-            },
-            "0.0.12": {
-                "en": "Change channel object to device object",
-                "de": "Kanalobjekt in Geräteobjekt ändern",
-                "ru": "Изменить объект канала на объект устройства",
-                "pt": "Alterar objeto do canal para objeto do dispositivo",
-                "nl": "Wijzig kanaalobject in apparaatobject",
-                "fr": "Changer d'objet de canal en objet de périphérique",
-                "it": "Cambia l'oggetto canale in oggetto dispositivo",
-                "es": "Cambiar objeto de canal a objeto de dispositivo",
-                "pl": "Zmień obiekt kanału na obiekt urządzenia",
-                "zh-cn": "将通道对象更改为设备对象"
-            },
-            "0.0.11": {
-                "en": "Remove unused function",
-                "de": "Nicht verwendete Funktion entfernen",
-                "ru": "Удалить неиспользуемую функцию",
-                "pt": "Remova a função não utilizada",
-                "nl": "Verwijder ongebruikte functie",
-                "fr": "Supprimer la fonction inutilisée",
-                "it": "Rimuovi la funzione non utilizzata",
-                "es": "Eliminar la función no utilizada",
-                "pl": "Usuń nieużywaną funkcję",
-                "zh-cn": "删除未使用的功能"
-            },
-            "0.0.10": {
-                "en": "Fix can not controll device issue",
-                "de": "Fix kann Geräteproblem nicht kontrollieren",
-                "ru": "Исправление не может контролировать проблему устройства",
-                "pt": "Correção não pode controlar o problema do dispositivo",
-                "nl": "Fix kan het probleem met het apparaat niet regelen",
-                "fr": "Fix ne peut pas contrôler le problème de périphérique",
-                "it": "La correzione non può risolvere il problema del dispositivo",
-                "es": "La solución no puede controlar el problema del dispositivo",
-                "pl": "Napraw nie może kontrolować problemu z urządzeniem",
-                "zh-cn": "修复无法控制设备问题"
-            },
-            "0.0.9": {
-                "en": "Fix delete device and discover devices issue",
-                "de": "Behebung eines Problems mit dem Löschen von Geräten und Ermitteln von Geräten",
-                "ru": "Исправить удаление устройства и обнаружить проблему устройств",
-                "pt": "Corrigir dispositivo de exclusão e descobrir problemas de dispositivos",
-                "nl": "Fix verwijder apparaat en ontdek apparaten probleem",
-                "fr": "Résolution du problème de suppression de périphérique et de découverte de périphériques",
-                "it": "Risolvi il problema con il dispositivo di eliminazione e scopri i dispositivi",
-                "es": "Arreglar eliminar dispositivo y descubrir problema de dispositivos",
-                "pl": "Napraw usunięcie urządzenia i wykrycie problemu z urządzeniami",
-                "zh-cn": "修复删除设备并发现设备问题"
-            },
-            "0.0.8": {
-                "en": "NEED UPLOAD MANUALLY！ use TS instead nodejs. Sync device ip based on token ",
-                "de": "NOTWENDIGES MANUELLES HOCHLADEN！ Verwenden Sie TS anstelle von nodejs. Synchronisieren Sie die Geräte-IP anhand des Tokens",
-                "ru": "НЕОБХОДИМО ЗАГРУЗИТЬ ВРУЧНУЮ！ используйте TS вместо nodejs. Синхронизировать ip устройства на основе токена",
-                "pt": "PRECISA DE CARREGAR MANUALMENTE！ use TS em vez de nodejs. Sincronizar o dispositivo ip com base no token",
-                "nl": "UPLOAD MANUEEL NODIG! Gebruik TS in plaats daarvan nodejs. Apparaat synchroniseren op basis van token",
-                "fr": "NEED UPLOAD MANUALLY！ utilisez TS à la place de nodejs. Synchroniser l'ip de l'appareil en fonction du jeton",
-                "it": "BISOGNO DI UPLOAD MANUALMENTE! Usa TS invece nodejs. Sincronizza l'ip del dispositivo in base al token",
-                "es": "NECESITA CARGAR MANUALMENTE！ use TS en lugar de nodejs. Dispositivo de sincronización ip basado en token",
-                "pl": "POTRZEBUJ RĘCZNIE PRZESYŁAJ！ użyj TS zamiast nodejs. Synchronizuj urządzenie IP na podstawie tokena",
-                "zh-cn": "需要手动上传！使用TS代替nodejs。基于token同步设备ip"
-            },
-            "0.0.7": {
-                "en": "Add zhimi fan support",
-                "de": "Fügen Sie Unterstützung für Zhimi-Fans hinzu",
-                "ru": "Добавить поддержку поклонников Жими",
-                "pt": "Adicionar zhimi fan support",
-                "nl": "Voeg ondersteuning toe voor zhimi-fans",
-                "fr": "Ajouter le support de fan zhimi",
-                "it": "Aggiungi il supporto per i fan di zhimi",
-                "es": "Añadir soporte para fan de zhimi",
-                "pl": "Dodaj obsługę wentylatora zhimi",
-                "zh-cn": "添加智米风扇支持"
-            },
-            "0.0.6": {
-                "en": "Add power load for chuangmi plug",
-                "de": "Fügen Sie die Stromlast für den Chuangmi-Stecker hinzu",
-                "ru": "Добавить нагрузку на разъем Chuangmi",
-                "pt": "Adicionar carga de energia para o plugue chuangmi",
-                "nl": "Voeg vermogensbelasting toe voor de chuangmi-stekker",
-                "fr": "Ajouter de la puissance pour la prise chuangmi",
-                "it": "Aggiungi carico per la spina di chuangmi",
-                "es": "Añadir carga de potencia para el enchufe chuangmi",
-                "pl": "Dodaj obciążenie dla wtyczki chuangmi",
-                "zh-cn": "为chuangmi插头增加电源负载"
-            },
-            "0.0.5": {
-                "en": "Fix URL mis-match issue ",
-                "de": "Korrigieren Sie das Problem der fehlerhaften Zuordnung von URLs",
-                "ru": "Устранить проблему несоответствия URL",
-                "pt": "Corrigir problema de correspondência incorreta de URL",
-                "nl": "Fix probleem met URL mis-match",
-                "fr": "Correction du problème de correspondance des URL",
-                "it": "Correggi il problema di corrispondenza errata nell'URL",
-                "es": "Solucionar problema de falta de coincidencia de URL",
-                "pl": "Napraw problem z niewłaściwym dopasowaniem adresu URL",
-                "zh-cn": "修复网址不匹配问题"
-            },
-            "0.0.4": {
-                "en": "Add yunmi water purifier support. Perfect unit test",
-                "de": "Fügen Sie Yunmi-Wasserreiniger hinzu. Perfekter Gerätetest",
-                "ru": "Добавьте поддержку очистителя воды yunmi. Идеальный юнит тест",
-                "pt": "Adicione o suporte do purificador de água yunmi. Teste unitário perfeito",
-                "nl": "Voeg yunmi waterzuiveringsinstallatie-ondersteuning toe. Perfecte unit test",
-                "fr": "Ajoutez un support pour purificateur d'eau yunmi. Test unitaire parfait",
-                "it": "Aggiungi il supporto depuratore d'acqua yunmi. Test dell'unità perfetto",
-                "es": "Añadir soporte purificador de agua yunmi. Prueba de unidad perfecta",
-                "pl": "Dodaj wsparcie oczyszczania wody yunmi. Doskonały test jednostkowy",
-                "zh-cn": "添加yunmi净水器支持。完善单元测试"
-            },
-            "0.0.3": {
-                "en": "Add value mapper function. Add CommandInPara command",
-                "de": "Fügen Sie die Value-Mapper-Funktion hinzu. Fügen Sie den Befehl CommandInPara hinzu",
-                "ru": "Добавить функцию сопоставления значений. Добавить команду CommandInPara",
-                "pt": "Adicione a função de mapeador de valor. Adicionar comando CommandInPara",
-                "nl": "Waarde-mapper-functie toevoegen. CommandInPara-opdracht toevoegen",
-                "fr": "Ajouter une fonction de mappeur de valeur. Ajouter une commande CommandInPara",
-                "it": "Aggiungi la funzione di mappatura dei valori. Aggiungi il comando CommandInPara",
-                "es": "Agregar función de mapeador de valor. Agregar Comando CommandInPara",
-                "pl": "Funkcja dodawania mapowania wartości. Dodaj polecenie CommandInPara",
-                "zh-cn": "添加值映射器功能。添加CommandInPara命令"
-            },
-            "0.0.2": {
-                "en": "Add new device support. Fix some TS lint error",
-                "de": "Neue Geräteunterstützung hinzufügen. Beheben Sie einen TS-Fusselfehler",
-                "ru": "Добавить поддержку нового устройства. Исправить ошибку TS lint",
-                "pt": "Adicionar novo suporte ao dispositivo. Corrigir algum erro de fiapos TS",
-                "nl": "Voeg nieuwe apparaatondersteuning toe. Fix een TS lint fout",
-                "fr": "Ajouter un nouveau support de périphérique. Correction d'une erreur de peluches TS",
-                "it": "Aggiungi nuovo supporto per dispositivo. Correggere alcuni errori di lint TS",
-                "es": "Añadir nuevo soporte de dispositivo. Solucionar algunos errores de pelusa TS",
-                "pl": "Dodaj nową obsługę urządzenia. Napraw niektóre błędy linków TS",
-                "zh-cn": "添加新设备支持。修复一些TS lint错误"
-            },
-            "0.0.1": {
-                "en": "initial release",
-                "de": "Erstveröffentlichung",
-                "ru": "Начальная версия",
-                "pt": "lançamento inicial",
-                "nl": "Eerste uitgave",
-                "fr": "Première version",
-                "it": "Versione iniziale",
-                "es": "Versión inicial",
-                "pl": "Pierwsze wydanie",
-                "zh-cn": "首次提交"
-            }
-        },
-        "title": "Xiaomi miIO protocol device",
-        "titleLang": {
-            "en": "Xiaomi miIO protocol device",
-            "de": "Xiaomi miIO Protokollgerät",
-            "ru": "Протокол протокола Xiaomi miIO",
-            "pt": "Dispositivo de protocolo miIO Xiaomi",
-            "nl": "Xiaomi miIO-protocolapparaat",
-            "fr": "Périphérique de protocole Xiaomi miIO",
-            "it": "Dispositivo protocollo Xiaomi miIO",
-            "es": "Dispositivo de protocolo Xiaomi miIO",
-            "pl": "Urządzenie protokołu Xiaomi miIO",
-            "zh-cn": "小米miIO协议设备"
-        },
-        "desc": {
-            "en": "This adapter controls devices which followed miIO protocol.",
-            "de": "Dieser Adapter steuert Geräte, die dem miIO-Protokoll folgen.",
-            "ru": "Этот адаптер управляет устройствами, которые следуют протоколу miIO.",
-            "pt": "Este adaptador controla dispositivos que seguiram o protocolo miIO.",
-            "nl": "Deze adapter bestuurt apparaten die het miIO-protocol volgden.",
-            "fr": "Cet adaptateur contrôle les périphériques qui ont suivi le protocole miIO.",
-            "it": "Questo adattatore controlla i dispositivi che seguono il protocollo miIO.",
-            "es": "Este adaptador controla dispositivos que siguieron el protocolo miIO.",
-            "pl": "Ten adapter steruje urządzeniami, które następują po protokole miIO.",
-            "zh-cn": "该适配器控制遵循miIO协议的设备。"
-        },
-        "authors": [
-            "SchumyHao <schumyhaojl@126.com>"
-        ],
-        "keywords": [
-            "ioBroker",
-            "template",
-            "Smart Home",
-            "home automation",
-            "xiaomi",
-            "miio",
-            "mijia"
-        ],
-        "license": "MIT",
-        "platform": "Javascript/Node.js",
-        "main": "build/main.js",
-        "icon": "miio.png",
-        "enabled": true,
-        "extIcon": "https://raw.githubusercontent.com/smarthomefans/ioBroker.miio/master/admin/miio.png",
-        "readme": "https://github.com/smarthomefans/ioBroker.miio/blob/master/README.md",
-        "loglevel": "info",
-        "mode": "daemon",
-        "type": "iot-systems",
-        "compact": true,
-        "materialize": true,
-        "dependencies": [
-            {
-                "admin": ">=3.0.0"
-            },
-            {
-                "js-controller": ">=1.4.2"
-            }
-        ]
+  "common": {
+    "name": "miio",
+    "version": "0.0.13",
+    "news": {
+      "0.0.13": {
+        "en": "Fix device can not control after adapter restart",
+        "de": "Fix Gerät kann nach Adapter-Neustart nicht kontrollieren",
+        "ru": "Исправить устройство не может контролировать после перезагрузки адаптера",
+        "pt": "O dispositivo de correção não pode controlar após a reinicialização do adaptador",
+        "nl": "Fix-apparaat kan niet controleren nadat de adapter opnieuw is opgestart",
+        "fr": "Le périphérique fixe ne peut pas contrôler après le redémarrage de l'adaptateur",
+        "it": "Il dispositivo di correzione non può controllare dopo il riavvio dell'adattatore",
+        "es": "El dispositivo fijo no puede controlar después de reiniciar el adaptador",
+        "pl": "Napraw urządzenie nie może kontrolować po ponownym uruchomieniu adaptera",
+        "zh-cn": "修复适配器重启后，设备无法控制"
+      },
+      "0.0.12": {
+        "en": "Change channel object to device object",
+        "de": "Kanalobjekt in Geräteobjekt ändern",
+        "ru": "Изменить объект канала на объект устройства",
+        "pt": "Alterar objeto do canal para objeto do dispositivo",
+        "nl": "Wijzig kanaalobject in apparaatobject",
+        "fr": "Changer d'objet de canal en objet de périphérique",
+        "it": "Cambia l'oggetto canale in oggetto dispositivo",
+        "es": "Cambiar objeto de canal a objeto de dispositivo",
+        "pl": "Zmień obiekt kanału na obiekt urządzenia",
+        "zh-cn": "将通道对象更改为设备对象"
+      },
+      "0.0.11": {
+        "en": "Remove unused function",
+        "de": "Nicht verwendete Funktion entfernen",
+        "ru": "Удалить неиспользуемую функцию",
+        "pt": "Remova a função não utilizada",
+        "nl": "Verwijder ongebruikte functie",
+        "fr": "Supprimer la fonction inutilisée",
+        "it": "Rimuovi la funzione non utilizzata",
+        "es": "Eliminar la función no utilizada",
+        "pl": "Usuń nieużywaną funkcję",
+        "zh-cn": "删除未使用的功能"
+      },
+      "0.0.10": {
+        "en": "Fix can not controll device issue",
+        "de": "Fix kann Geräteproblem nicht kontrollieren",
+        "ru": "Исправление не может контролировать проблему устройства",
+        "pt": "Correção não pode controlar o problema do dispositivo",
+        "nl": "Fix kan het probleem met het apparaat niet regelen",
+        "fr": "Fix ne peut pas contrôler le problème de périphérique",
+        "it": "La correzione non può risolvere il problema del dispositivo",
+        "es": "La solución no puede controlar el problema del dispositivo",
+        "pl": "Napraw nie może kontrolować problemu z urządzeniem",
+        "zh-cn": "修复无法控制设备问题"
+      },
+      "0.0.9": {
+        "en": "Fix delete device and discover devices issue",
+        "de": "Behebung eines Problems mit dem Löschen von Geräten und Ermitteln von Geräten",
+        "ru": "Исправить удаление устройства и обнаружить проблему устройств",
+        "pt": "Corrigir dispositivo de exclusão e descobrir problemas de dispositivos",
+        "nl": "Fix verwijder apparaat en ontdek apparaten probleem",
+        "fr": "Résolution du problème de suppression de périphérique et de découverte de périphériques",
+        "it": "Risolvi il problema con il dispositivo di eliminazione e scopri i dispositivi",
+        "es": "Arreglar eliminar dispositivo y descubrir problema de dispositivos",
+        "pl": "Napraw usunięcie urządzenia i wykrycie problemu z urządzeniami",
+        "zh-cn": "修复删除设备并发现设备问题"
+      },
+      "0.0.8": {
+        "en": "NEED UPLOAD MANUALLY！ use TS instead nodejs. Sync device ip based on token ",
+        "de": "NOTWENDIGES MANUELLES HOCHLADEN！ Verwenden Sie TS anstelle von nodejs. Synchronisieren Sie die Geräte-IP anhand des Tokens",
+        "ru": "НЕОБХОДИМО ЗАГРУЗИТЬ ВРУЧНУЮ！ используйте TS вместо nodejs. Синхронизировать ip устройства на основе токена",
+        "pt": "PRECISA DE CARREGAR MANUALMENTE！ use TS em vez de nodejs. Sincronizar o dispositivo ip com base no token",
+        "nl": "UPLOAD MANUEEL NODIG! Gebruik TS in plaats daarvan nodejs. Apparaat synchroniseren op basis van token",
+        "fr": "NEED UPLOAD MANUALLY！ utilisez TS à la place de nodejs. Synchroniser l'ip de l'appareil en fonction du jeton",
+        "it": "BISOGNO DI UPLOAD MANUALMENTE! Usa TS invece nodejs. Sincronizza l'ip del dispositivo in base al token",
+        "es": "NECESITA CARGAR MANUALMENTE！ use TS en lugar de nodejs. Dispositivo de sincronización ip basado en token",
+        "pl": "POTRZEBUJ RĘCZNIE PRZESYŁAJ！ użyj TS zamiast nodejs. Synchronizuj urządzenie IP na podstawie tokena",
+        "zh-cn": "需要手动上传！使用TS代替nodejs。基于token同步设备ip"
+      },
+      "0.0.7": {
+        "en": "Add zhimi fan support",
+        "de": "Fügen Sie Unterstützung für Zhimi-Fans hinzu",
+        "ru": "Добавить поддержку поклонников Жими",
+        "pt": "Adicionar zhimi fan support",
+        "nl": "Voeg ondersteuning toe voor zhimi-fans",
+        "fr": "Ajouter le support de fan zhimi",
+        "it": "Aggiungi il supporto per i fan di zhimi",
+        "es": "Añadir soporte para fan de zhimi",
+        "pl": "Dodaj obsługę wentylatora zhimi",
+        "zh-cn": "添加智米风扇支持"
+      },
+      "0.0.6": {
+        "en": "Add power load for chuangmi plug",
+        "de": "Fügen Sie die Stromlast für den Chuangmi-Stecker hinzu",
+        "ru": "Добавить нагрузку на разъем Chuangmi",
+        "pt": "Adicionar carga de energia para o plugue chuangmi",
+        "nl": "Voeg vermogensbelasting toe voor de chuangmi-stekker",
+        "fr": "Ajouter de la puissance pour la prise chuangmi",
+        "it": "Aggiungi carico per la spina di chuangmi",
+        "es": "Añadir carga de potencia para el enchufe chuangmi",
+        "pl": "Dodaj obciążenie dla wtyczki chuangmi",
+        "zh-cn": "为chuangmi插头增加电源负载"
+      },
+      "0.0.5": {
+        "en": "Fix URL mis-match issue ",
+        "de": "Korrigieren Sie das Problem der fehlerhaften Zuordnung von URLs",
+        "ru": "Устранить проблему несоответствия URL",
+        "pt": "Corrigir problema de correspondência incorreta de URL",
+        "nl": "Fix probleem met URL mis-match",
+        "fr": "Correction du problème de correspondance des URL",
+        "it": "Correggi il problema di corrispondenza errata nell'URL",
+        "es": "Solucionar problema de falta de coincidencia de URL",
+        "pl": "Napraw problem z niewłaściwym dopasowaniem adresu URL",
+        "zh-cn": "修复网址不匹配问题"
+      },
+      "0.0.4": {
+        "en": "Add yunmi water purifier support. Perfect unit test",
+        "de": "Fügen Sie Yunmi-Wasserreiniger hinzu. Perfekter Gerätetest",
+        "ru": "Добавьте поддержку очистителя воды yunmi. Идеальный юнит тест",
+        "pt": "Adicione o suporte do purificador de água yunmi. Teste unitário perfeito",
+        "nl": "Voeg yunmi waterzuiveringsinstallatie-ondersteuning toe. Perfecte unit test",
+        "fr": "Ajoutez un support pour purificateur d'eau yunmi. Test unitaire parfait",
+        "it": "Aggiungi il supporto depuratore d'acqua yunmi. Test dell'unità perfetto",
+        "es": "Añadir soporte purificador de agua yunmi. Prueba de unidad perfecta",
+        "pl": "Dodaj wsparcie oczyszczania wody yunmi. Doskonały test jednostkowy",
+        "zh-cn": "添加yunmi净水器支持。完善单元测试"
+      },
+      "0.0.3": {
+        "en": "Add value mapper function. Add CommandInPara command",
+        "de": "Fügen Sie die Value-Mapper-Funktion hinzu. Fügen Sie den Befehl CommandInPara hinzu",
+        "ru": "Добавить функцию сопоставления значений. Добавить команду CommandInPara",
+        "pt": "Adicione a função de mapeador de valor. Adicionar comando CommandInPara",
+        "nl": "Waarde-mapper-functie toevoegen. CommandInPara-opdracht toevoegen",
+        "fr": "Ajouter une fonction de mappeur de valeur. Ajouter une commande CommandInPara",
+        "it": "Aggiungi la funzione di mappatura dei valori. Aggiungi il comando CommandInPara",
+        "es": "Agregar función de mapeador de valor. Agregar Comando CommandInPara",
+        "pl": "Funkcja dodawania mapowania wartości. Dodaj polecenie CommandInPara",
+        "zh-cn": "添加值映射器功能。添加CommandInPara命令"
+      },
+      "0.0.2": {
+        "en": "Add new device support. Fix some TS lint error",
+        "de": "Neue Geräteunterstützung hinzufügen. Beheben Sie einen TS-Fusselfehler",
+        "ru": "Добавить поддержку нового устройства. Исправить ошибку TS lint",
+        "pt": "Adicionar novo suporte ao dispositivo. Corrigir algum erro de fiapos TS",
+        "nl": "Voeg nieuwe apparaatondersteuning toe. Fix een TS lint fout",
+        "fr": "Ajouter un nouveau support de périphérique. Correction d'une erreur de peluches TS",
+        "it": "Aggiungi nuovo supporto per dispositivo. Correggere alcuni errori di lint TS",
+        "es": "Añadir nuevo soporte de dispositivo. Solucionar algunos errores de pelusa TS",
+        "pl": "Dodaj nową obsługę urządzenia. Napraw niektóre błędy linków TS",
+        "zh-cn": "添加新设备支持。修复一些TS lint错误"
+      },
+      "0.0.1": {
+        "en": "initial release",
+        "de": "Erstveröffentlichung",
+        "ru": "Начальная версия",
+        "pt": "lançamento inicial",
+        "nl": "Eerste uitgave",
+        "fr": "Première version",
+        "it": "Versione iniziale",
+        "es": "Versión inicial",
+        "pl": "Pierwsze wydanie",
+        "zh-cn": "首次提交"
+      }
     },
-    "native": {
-        "autoDiscover": true,
-        "autoDiscoverTimeout": "30",
-        "devices": []
+    "title": "Xiaomi miIO protocol device",
+    "titleLang": {
+      "en": "Xiaomi miIO protocol device",
+      "de": "Xiaomi miIO Protokollgerät",
+      "ru": "Протокол протокола Xiaomi miIO",
+      "pt": "Dispositivo de protocolo miIO Xiaomi",
+      "nl": "Xiaomi miIO-protocolapparaat",
+      "fr": "Périphérique de protocole Xiaomi miIO",
+      "it": "Dispositivo protocollo Xiaomi miIO",
+      "es": "Dispositivo de protocolo Xiaomi miIO",
+      "pl": "Urządzenie protokołu Xiaomi miIO",
+      "zh-cn": "小米miIO协议设备"
     },
-    "objects": [],
-    "instanceObjects": [
-        {
-            "_id": "info",
-            "type": "channel",
-            "common": {
-                "name": "Information"
-            },
-            "native": {}
-        },
-        {
-            "_id": "info.connection",
-            "type": "state",
-            "common": {
-                "role": "indicator.connected",
-                "name": "Device or service connected",
-                "type": "boolean",
-                "read": true,
-                "write": false,
-                "def": false
-            },
-            "native": {}
-        }
+    "desc": {
+      "en": "This adapter controls devices which followed miIO protocol.",
+      "de": "Dieser Adapter steuert Geräte, die dem miIO-Protokoll folgen.",
+      "ru": "Этот адаптер управляет устройствами, которые следуют протоколу miIO.",
+      "pt": "Este adaptador controla dispositivos que seguiram o protocolo miIO.",
+      "nl": "Deze adapter bestuurt apparaten die het miIO-protocol volgden.",
+      "fr": "Cet adaptateur contrôle les périphériques qui ont suivi le protocole miIO.",
+      "it": "Questo adattatore controlla i dispositivi che seguono il protocollo miIO.",
+      "es": "Este adaptador controla dispositivos que siguieron el protocolo miIO.",
+      "pl": "Ten adapter steruje urządzeniami, które następują po protokole miIO.",
+      "zh-cn": "该适配器控制遵循miIO协议的设备。"
+    },
+    "authors": [
+      "SchumyHao <schumyhaojl@126.com>"
+    ],
+    "keywords": [
+      "ioBroker",
+      "template",
+      "Smart Home",
+      "home automation",
+      "xiaomi",
+      "miio",
+      "mijia"
+    ],
+    "license": "MIT",
+    "platform": "Javascript/Node.js",
+    "main": "build/main.js",
+    "icon": "miio.png",
+    "enabled": true,
+    "extIcon": "https://raw.githubusercontent.com/smarthomefans/ioBroker.miio/master/admin/miio.png",
+    "readme": "https://github.com/smarthomefans/ioBroker.miio/blob/master/README.md",
+    "loglevel": "info",
+    "mode": "daemon",
+    "type": "iot-systems",
+    "compact": true,
+    "materialize": true,
+    "dependencies": [
+      {
+        "admin": ">=3.0.0"
+      },
+      {
+        "js-controller": ">=6.0.11"
+      }
     ]
+  },
+  "native": {
+    "autoDiscover": true,
+    "autoDiscoverTimeout": "30",
+    "devices": []
+  },
+  "objects": [],
+  "instanceObjects": [
+    {
+      "_id": "info",
+      "type": "channel",
+      "common": {
+        "name": "Information"
+      },
+      "native": {}
+    },
+    {
+      "_id": "info.connection",
+      "type": "state",
+      "common": {
+        "role": "indicator.connected",
+        "name": "Device or service connected",
+        "type": "boolean",
+        "read": true,
+        "write": false,
+        "def": false
+      },
+      "native": {}
+    }
+  ]
 }
