@@ -50,6 +50,10 @@ This adapter controls devices which followed miIO protocol.
 
 
 ## Changelog
+
+### **WORK IN PROGRESS**
+- (ioBroker-Bot) Adapter requires js-controller >= 6.0.11 now.
+
 ### 0.0.13 (2019-09-19)
 * Fix device can not control after adapter restart
 
